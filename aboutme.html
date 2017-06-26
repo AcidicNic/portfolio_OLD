@@ -1,17 +1,17 @@
-<html><head>
-  <link rel="stylesheet" type="text/css" href="/portfolio/abtme.css">
-  <title>my portfolio :]</title>
+<html> <head>
+  <title>Nicole Rocha :]</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
+  
 <!-- moving css to seperate file later -->
 <style>
+
  body {
   background-color: black;
+  margin: auto;
 }
  #title {
   width: 100%;
-  align: middle;
+  margin: auto;
 }
  #top {
   display:block;
@@ -19,19 +19,13 @@
   hieght: 300px
 }
  #top-left {
-  width: 49%;
-  text-color: ffffff;
-  text-align: center;
   float: left;
-  border: 1px solid white;
-  border-radius: 7px;
 }
  #top-right {
-  width: 49%;
-  text-color: ffffff;
-  text-align: center;
   float: right;
-  border: 1px solid white;
+}
+ #top-right, #top-left {
+  width: 49%;
   border-radius: 7px;
 }
  #bottom {
@@ -39,55 +33,45 @@
   flex: 1;
   flex-direction: row;
 }
- #bottom-left {
-  width: 32%;
-  text-color: ffffff;
-  text-align: center;
-  border: 1px solid white;
-  border-radius: 7px;
-
+ #bottom-left, #bottom-middle, #bottom-right {
+  width: 33%;
+  float: left;
+  margin: auto;
 }
- #bottom-middle {
-  width: 32%;
-  text-color: ffffff;
-  text-align: center;
-  border: 1px solid white;
-  border-radius: 7px;
-
-}
- #bottom-right {
-  width: 32%;
-  text-color: ffffff;
-  text-align: center;
-  border: 1px solid white;
-  border-radius: 7px;
-
-}
-  #bottom-right, #bottom-middle, #bottom-left {  
+ #bottom-right, #bottom-middle, #bottom-left, #top-left, #top-right {  
   flex: 1;
   flex-direction: row;
+  text-color: ffffff;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 7px;
 }
-p {
+ p {
   color: white;
 }
-  }
-</style>
-  <!--header image i made in photoshop-->
-  <img id="title" src="http://i.imgur.com/AeI78Eg.jpg">
+ #pic-1 {
+  padding: 5%;
   
-  
+}
+ #main {
+  width: 90%;
+}
+</style> </head> <body>
+
+  <!--header image, made in photoshop-->
+  <img id="title" src="http://i.imgur.com/AeI78Eg.jpg"/>
+
+<div id="main">
  <div id="top">
-   <div id="top-left"> <p>going to put my bio here in a cool font.</p> </div>
-   <div id="top-right"> <p>gonna put a list of my skills here.</p> </div>
+   <div id="top-left"> <p>going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. </p> </div>
+   <div id="top-right"> <p>gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. </p> </div>
  </div>
 
  <div id="bottom">
-   <div id="bottom-left"> <p>idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, </p> </div>
-   <div id="bottom-middle"> <p>idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, </p> </div>
-   <div id="bottom-right"> <p>idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, </p> </div>
+   <div id="bottom-left"> <img id="pic-1" src="https://s-media-cache-ak0.pinimg.com/236x/70/24/e8/7024e821526334bbd684836cf9e88b4b.jpg"> <p>idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, </p> </div>
+   <div id="bottom-middle"> <img id="pic-1" src="https://s-media-cache-ak0.pinimg.com/236x/70/24/e8/7024e821526334bbd684836cf9e88b4b.jpg"> <p>idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, </p> </div>
+   <div id="bottom-right"> <img id="pic-1" src="https://s-media-cache-ak0.pinimg.com/236x/70/24/e8/7024e821526334bbd684836cf9e88b4b.jpg"> <p>idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, idk, </p> </div>
  </div>
+</div>
 
-  <!--img id="pic-1" src="https://s-media-cache-ak0.pinimg.com/236x/70/24/e8/7024e821526334bbd684836cf9e88b4b.jpg"-->
-
-
-</body></html>
+</body> </html>
