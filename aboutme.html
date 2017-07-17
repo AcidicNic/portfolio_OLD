@@ -23,14 +23,14 @@
     float: right;
   }
    #top-right, #top-left {
-    width: 49%;
+    width: 47%;
     border-radius: 7px;
+    color:white;
+    padding:1%;
   }
    #bottom {
     width: 100%;
     display: table-row;
-    flex: 1;
-    flex-direction: row;
   }
    #bottom-left, #bottom-middle {
     margin-right: 1.25%;
@@ -42,9 +42,7 @@
   }
    #bottom-right, #bottom-middle, #bottom-left, #top-left, #top-right {
     padding: 10px
-    flex: 1;
-    flex-direction: row;
-    text-color: ffffff;
+    color: #fff;
     text-align: center;
     border: 1px solid white;
     border-radius: 7px;
@@ -53,23 +51,67 @@
     color: white;
   }
    #pic-1 {
-    padding: 2%;
+    padding-top: 5%;
     width:90%;
   }
    #main {
     margin: auto;
     width: 90%;
-  } </style>
+  }
+  #navBar {
+    width: 90%;
+    margin: auto;
+    display: table;
+    margin-bottom: 1.5% !important;
+  }
+  .navItems {
+    display:table-cell;
+    text-align: center;
+    margin:1%;
+    color: #fff;
+    border: 1px solid white;
+    padding: 1%;
+  }
+  .navItems:hover {
+    cursor: pointer;
+  }
+  #y:hover {color: #FF0000; border-color: #FF0000;}
+  #q:hover {color: #00FF00; border-color: #00FF00;}
+  #w:hover {color: #0000FF; border-color: #0000FF;}
+  #e:hover {color: #FF0000; border-color: #FF0000;}
+  #r:hover {color: #00FF00; border-color: #00FF00;}
+  #t:hover {color: #0000FF; border-color: #0000FF;}
+  #navItemsContent {
+    display: none;
+    position: absolute;
+    color: #fff;
+    border: 1px solid white;
+    z-index: 1;
+  }
+ #q:hover #navItemsContent {
+    display: block;
+  }
+  </style>
 
 </head> <body>
 
 <!--header image, made in photoshop-->
 <img id="title" src="http://i.imgur.com/AeI78Eg.jpg"/>
 
+<div id="navBar">
+  <div class="navItems" id="q">abt me</div>
+    <span id="navItemsContent">jherbcfd</span>
+  <div class="navItems" id="w">projects</div>
+  <div class="navItems" id="e">skills?</div>
+  <div class="navItems" id="r">contact</div>
+  <!--div class="navItems" id="t">wtf</div>
+  <div class="navItems" id="y">hhh</div-->
+</div>
+
 <div id="main">
  <div id="top">
-   <div id="top-left"> <p>going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. </p> </div>
-   <div id="top-right"> <p>gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. </p> </div>
+   <div id="top-left">going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font.</div>
+   <div id="top-right">gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here. gonna put a list of my skills here.</div>
  </div>
 
  <div id="bottom">
