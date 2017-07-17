@@ -4,57 +4,59 @@
 
 <!-- moving css to seperate file later -->
 <style>
-  body {
+   body {
     background-color: black;
     margin: auto;
   }
-  #title {
+   #title {
     width: 100%;
     margin: auto;
-    display: block;
   }
-  #top {
-    width: 100%;
-    display: block;
-    border-top: 1px solid white;
-  }
-  #top-left {
-    float: left;
-    border-right: 1px solid white;
-  }
-  #top-right {
-    float: left;
-  }
-  #top-right, #top-left {
-    width: 49.8%;
-    border-bottom: 1px solid white;
-  }
-  #bottom {
+   #top {
+    display: table-row;
     width: 100%;
   }
-  #bottom-left, #bottom-middle {
-    border-right: 1px solid white;
-  }
-  #bottom-left, #bottom-middle, #bottom-right {
-    width: 33%;
+   #top-left {
     float: left;
-    padding-top: 5px;
   }
-  #bottom-right, #bottom-middle, #bottom-left, #top-left, #top-right {
+   #top-right {
+    float: right;
+  }
+   #top-right, #top-left {
+    width: 49%;
+    border-radius: 7px;
+  }
+   #bottom {
+    width: 100%;
+    display: table-row;
     flex: 1;
     flex-direction: row;
-    text-color: #ffffff;
-    text-align: center;
   }
-  p {
+   #bottom-left, #bottom-middle {
+    margin-right: 1.25%;
+  }
+   #bottom-left, #bottom-middle, #bottom-right {
+    width: 32%;
+    float: left;
+    margin-top: 1.25%;
+  }
+   #bottom-right, #bottom-middle, #bottom-left, #top-left, #top-right {
+    padding: 10px
+    flex: 1;
+    flex-direction: row;
+    text-color: ffffff;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 7px;
+  }
+   p {
     color: white;
   }
-  #pic-1 {
+   #pic-1 {
     padding: 2%;
     width:90%;
-    radius: 50px;
   }
-  #main {
+   #main {
     margin: auto;
     width: 90%;
   } </style>
@@ -62,8 +64,8 @@
 </head> <body>
 
 <!--header image, made in photoshop-->
-<img id="title" src="http://i.imgur.com/6VowI2g.png"/>
-<!--http://i.imgur.com/AeI78Eg.jpg-->
+<img id="title" src="http://i.imgur.com/AeI78Eg.jpg"/>
+
 <div id="main">
  <div id="top">
    <div id="top-left"> <p>going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. going to put my bio here in a cool font. </p> </div>
